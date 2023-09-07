@@ -1,0 +1,11 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+html, body, main {
+    min-height: 100vh;
+}
+
+.footer{
+    padding-top: 1.3rem;
+}
