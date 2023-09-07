@@ -18,6 +18,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/documentation', function () {
+    return redirect('https://documenter.getpostman.com/view/10053509/2s9YBz2aJ2', 302);
+});
+
 Route::middleware(['locale'])->group(function () {
 
     Route::get('translations', [FrontEndController::class, 'translations']);
